@@ -8,7 +8,7 @@ RUN npm install
 RUN tsd install
 
 ADD . .
-RUN grunt ts
+RUN gulp
 
 EXPOSE 3000 
 
